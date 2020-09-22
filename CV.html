@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CV Page</title>
+    <link rel="stylesheet" href="cv.css">
+    <h1 id="name">NAME</h1>
+    <p id="address">Postal Address</p>
+    <p id="number">Phone number</p>
+    <p id="mail">Email</p>
+    <script>
+        document.getElementById("name").innerHTML = localStorage.getItem("val0");
+        document.getElementById("address").innerHTML = localStorage.getItem("val1");
+        document.getElementById("number").innerHTML = localStorage.getItem("val2");
+        document.getElementById("mail").innerHTML = localStorage.getItem("val3");
+    </script>
+</head>
+
+<body>
+    <p id="p_head">OBJECTIVE</p>
+    <hr>
+    <p>Seeking a challenging entry-level position in Sales and Marketing with considerable opportunities for growth.</p>
+
+    <p id="p_head">EDUCATION</p>
+    <hr>
+    <div id="textbox">
+        <p id="alignleftbold">ASHESI UNIVERSITY</p>
+        <p id="alignrightbold">Eastern Region, Berekusu</p>
+    </div>
+    <div style="clear: both;"></div>
+    <div id="textbox">
+        <p id="alignleft">BSc. Computer Science</p>
+        <p id="alignright">September 2018 - June 2022</p>
+    </div>
+    <div style="clear: both;"></div>
+    <div>
+        <ul>
+            <li>
+                <p id="l1">Relevant Courses:
+                </p>
+                <p id="pl1">Data Structures and Algorithms
+
+                </p>
+                <p id="pl1">Web Technologies
+
+                </p>
+
+            </li>
+
+        </ul>
+    </div>
+
+    <p id="p_head">ACHIEVEMENTS/AWARDS</p>
+    <hr>
+    <p>None so far<br><br></p>
+    <p id="p_head">WORK EXPERIENCE</p>
+    <hr>
+    <p>None so far.</p>
+    <p id="p_head">OTHER SKILLS</p>
+    <hr>
+    <p>Java</p>
+    <p>MySQL</p>
+    <p>Python</p>
+    <p>Ux/Ui Design</p>
+    <p>Web Development</p>
+
+    <p id="p_head">CO-CURRICULAR ACTIVITIES</p>
+    <hr>
+    <p>None so far.</p>
+    <p id="p_head">REFERENCES</p>
+    <hr>
+    <p>Available upon request.</p>
+
+
+</body>
+
+</html>

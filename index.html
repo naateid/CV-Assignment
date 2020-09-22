@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <script src="script.js"></script>
+    <script>
+        function FormStorage() {
+            var name = document.getElementsByName("first_name").value;
+            localStorage.setItem("val0", name);
+            var lname = document.getElementsByName("last_name").value;
+            localStorage.setItem("val0", lname);
+            var email = document.getElementsByName("email").value;
+            localStorage.setItem("val3", email);
+            var phone = document.getElementsByName("phone_nuumber").value;
+            localStorage.setItem("val2", phone);
+            var address = document.getElementsByName("address").value;
+            localStorage.setItem("val1", address);
+            window.location.href = "CV.html";
+            return false;
+
+
+
+
+        }
+    </script>
+    <title>CV Form</title>
+
+    <link rel="stylesheet" href="cv.css">
+    <h1>
+        ENTER YOUR DETAILS
+    </h1>
+
+</header>
+
+<body class="body">
+    <form name="cvform" method="post" action="CV.html" onsubmit="return validateform()">
+        Name: <input type="text" name="first_name">
+        <br><br> Middle name: <input type="text" name="middle_name" />
+        <br><br> Last name: <input type="text" name="last_name" />
+        <br><br> Email: <input type="email" name="email" />
+        <br><br> Phone: <input type="phone_number" name="phone_number" />
+        <br><br> Address: <input type="Address" name="address" />
+        <br><br>Gender:
+        <select id="select">
+          <option>Male</option>
+          <option>Female</option>
+         </select>
+        <br><br>
+        <input type="submit" value="Submit" onclick="FormStorage();">
+    </form>
+
+</body>
+<script src="script.js"></script>
+
+
+</html>

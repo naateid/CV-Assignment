@@ -1,0 +1,97 @@
+    .body {
+        font-size: 25px;
+        background-color: deepskyblue;
+    }
+    
+    .form {
+        font-size: 25px;
+    }
+    
+    .button {
+        border: none;
+        border-radius: 50px;
+        color: black;
+        padding: 15px 32px;
+        text-align: center;
+        background-color: linen;
+        text-decoration: solid;
+        display: inline-block;
+        font-size: 18px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+    
+    h1 {
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 150%;
+    }
+    
+    #address {
+        text-align: center;
+    }
+    
+    #mail {
+        text-align: center;
+    }
+    
+    #number {
+        text-align: center;
+    }
+    
+    hr {
+        border: 1px solid black;
+    }
+    
+    #p_head {
+        font-weight: bold;
+        white-space: nowrap;
+    }
+    
+    #x {
+        font-weight: bold;
+        white-space: nowrap;
+    }
+    
+    #rightbold {
+        font-weight: bold;
+        text-align: right;
+    }
+    
+    #right {
+        text-align: right;
+    }
+    
+    #textbox {
+        height: 0px;
+    }
+    
+    #alignleftbold {
+        float: left;
+        font-weight: bold;
+    }
+    
+    #alignrightbold {
+        float: right;
+        font-weight: bold;
+    }
+    
+    #alignleft {
+        float: left;
+    }
+    
+    #alignright {
+        float: right;
+    }
+    
+    #l1 {
+        font-weight: bold;
+    }
+    
+    #pl1 {
+        text-indent: 3cm
+    }
+    
+    #select {
+        font-size: 70%;
+    }
